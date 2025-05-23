@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sudani'ŋ Póré'ŋa Ta̱bʉ́ kúwa'ŋ soom</title>
+  <link rel="stylesheet" href="static/css/style.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+</head>
+<body>
+  <!-- Navigation -->
+  <header class="nav">
+    <div class="logo">
+      <!-- Logo -->
+      <img src="static/images/logo.png" alt="Sudanese Future Generations School" class="logo-img" />
+    </div>
+    <nav class="menu">
+      <a href="#Toŋ">Toŋ</a>
+      <a href="#achievements"> dɨɨŋ Jooméŋá</a>
+      <a href="#courses">Da̠mɨŋa </a>
+      <a href="#staff">gʉʉdʼíŋ dáldá</a>
+      <a href="#gallery"> jɨ̌loŋáʼŋ jawarʼíŋ</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact Us</a>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section id="home" class="hero">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <h1>Ta̱bʉ́'ŋ bagó sudani'ŋ póré'ŋ ta̱bʉ́ kúwa'ŋ soom</h1>
+      <p>We nurture young minds through excellence in education.</p>
+      <button onclick="toggleMoreInfo()">Learn More</button>
+      <div id="more-info" class="more-info hidden">
+        <p>sudani'ŋ póré'ŋ ta̱bʉ́ kúwa'ŋ soom is committed to delivering a comprehensive education that empowers students with critical thinking, creativity, and leadership. Our experienced teaching staff, nationally recognized programs, and consistently high-achieving students set us apart.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Us -->
+  <section id="about" class="section bg-white">
+    <div class="container">
+      <h2>About the School</h2>
+      <p>
+        – Qualified teachers<br>
+        – Modern curricula<br>
+        – Extracurricular activities<br>
+        – Continuous communication with parents<br>
+        – #Future_Generations_Where_The_Story_Begins<br>
+        – Register now... Enrollment is open<br><br>
+        
+        Our fees are reduced and affordable for all Sudanese families living abroad.<br>
+        Special payment and production programs.<br>
+        Discipline – System – Excellence. sudani'ŋ póré'ŋ ta̱bʉ́ kúwa'ŋ soom is an outstanding educational institution aiming for academic excellence and value development. Our mission is to inspire and educate future leaders through an innovative and motivating learning environment.
+      </p>
+    </div>
+  </section>
+
+  <!-- Achievements -->
+  <section id="achievements" class="section">
+    <h2> dɨɨŋ Jooméŋá</h2>
+    <div class="cards">
+      <div class="card">
+        <img src="https://images.pexels.com/photos/8617769/pexels-photo-8617769.jpeg" alt="Achievement 1">
+        <h3>National Science Competition</h3>
+        <p>Our students won first place in the 2023 competition.</p>
+      </div>
+      <div class="card">
+        <img src="https://images.pexels.com/photos/8617742/pexels-photo-8617742.jpeg" alt="Achievement 2">
+        <h3>Best Teaching Award</h3>
+        <p>We were honored with the 2023 Excellence in Teaching Award.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Courses -->
+  <section id="courses" class="section bg-light">
+    <div class="container">
+        <h2>Da̠mɨŋa </h2>
+        <div class="course-category">
+            <h3>Primary School Da̠mɨŋa </h3>
+            <div class="course-list">
+                <div class="course-card">
+                    <img src="static/images/math.jpeg" alt="Primary Math Course" class="course-image"/>
+                    <h4>Primary Math Da̠mɨŋ</h4>
+                    <p>A comprehensive course teaching math to primary students with interactive and fun lessons.</p>
+                </div>
+                <div class="course-card">
+                    <img src="static/images/Arabic.jpeg" alt="Primary Arabic Course" class="course-image"/>
+                    <h4>Solóŋʼíŋ juuŋʼíŋ Da̠mɨŋa.</h4>
+                    <p>Teaching basic Arabic in a simple and enjoyable way for primary children.</p>
+                </div>
+                <div class="course-card">
+                    <img src="static/images/nature.jpeg" alt="Primary Science Course" class="course-image"/>
+                    <h4>Primary Science Da̠mɨŋ</h4>
+                    <p>An introduction to natural sciences for kids, with fun and interactive experiments.</p>
+                </div>
+                <div class="course-card">
+                    <img src="static/images/arts.jpeg" alt="Primary Art Education Course" class="course-image"/>
+                    <h4>Primary Art Education Da̠mɨŋ</h4>
+                    <p>A course to enhance creativity and art skills through interactive activities.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+  <!-- Staff -->
+  <section id="staff" class="section">
+    <h2>dáíŋ gʉʉdʼíŋ dáldá</h2>
+    <div class="cards">
+      <div class="card">
+        <img src="static/images/Adam.jpeg" alt="Adam">
+        <h3> Gʉʉd palé Adam</h3>
+        <p>Ulúma</p>
+      </div>
+      <div class="card">
+        <img src="https://images.pexels.com/photos/5212317/pexels-photo-5212317.jpeg" alt="David Wilson">
+        <h3>Gʉʉd palé David Wilson</h3>
+        <p>Science</p>
+      </div>
+      <div class="card">
+        <img src="https://images.pexels.com/photos/5212339/pexels-photo-5212339.jpeg" alt="Emily Brown">
+        <h3>Gʉʉd paléEmily Daagulíŋ</h3>
+        <p>Ɨngɨlɨ̂zɨ</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery -->
+  <section id="gallery" class="section">
+    <h2> Soomʼíŋ jɨ̌loŋáʼŋ jawarʼíŋ rɨge</h2>
+    <div class="gallery">
+      <img src="https://images.pexels.com/photos/8613089/pexels-photo-8613089.jpeg" alt="Gallery 1" />
+      <img src="https://images.pexels.com/photos/8617742/pexels-photo-8617742.jpeg" alt="Gallery 2" />
+      <img src="https://images.pexels.com/photos/8617769/pexels-photo-8617769.jpeg" alt="Gallery 3" />
+      <img src="https://images.pexels.com/photos/8617914/pexels-photo-8617914.jpeg" alt="Gallery 4" />
+    </div>
+  </section>
+
+  <!-- Stats -->
+  <section class="stats">
+    <div class="stat-box">
+      <h3>500+</h3>
+      <p>Majira</p>
+    </div>
+    <div class="stat-box">
+      <h3>50+</h3>
+      <p>gʉʉdpaalíŋá jaluŋkwǎ</p>
+    </div>
+    <div class="stat-box">
+      <h3>100+</h3>
+      <p>Kóósa</p>
+    </div>
+    <div class="stat-box">
+      <h3>20+</h3>
+      <p>ájíŋá</p>
+    </div>
+  </section>
+
+  <!-- Map Section -->
+  <section class="section">
+    <h2>dɨɨŋ loo</h2>
+    <div id="map"></div>
+    <p>6th of October City - Zamalek Neighborhood - Near Family House</p>
+  </section>
+
+  <!-- Contact Us -->
+  <section id="contact" class="section bg-gray">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <p>For inquiries and registration, call the following numbers:</p>
+      <ul>
+        <li>Mr. Moatasem: 01149670542</li>
+        <li>Mr. Adam: 01114517749</li>
+        <li>Mr. Baker: 01149560119</li>
+      </ul>
+      <a href="https://wa.me/201006638921" target="_blank" class="whatsapp-button">Contact via WhatsApp</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-cols">
+      <div>
+        <h3>Contact Us</h3>
+        <p>6th of October City<br>Zamalek Neighborhood<br>Near Family House<br>info@futureacademy.edu</p>
+      </div>
+      <div>
+        <h3>Quick Links</h3>
+        <a href="#Toŋ">Toŋ</a>
+        <a href="#achievements">Jooméŋá</a>
+        <a href="#courses">Da̠mɨŋa </a>
+        <a href="#staff">gʉʉdʼíŋ dáldá</a>
+        <a href="#about">About</a>
+      </div>
+      <div>
+        <h3>Follow Us</h3>
+        <a href="#">Facebook</a>
+        <a href="#">Twitter</a>
+        <a href="#">Instagram</a>
+      </div>
+    </div>
+    <p class="footer-copy">© 2024 sudani'ŋ póré'ŋ ta̱bʉ́ kúwa'ŋ soom. All rights reserved.</p>
+  </footer>
+
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <script src="static/js/script.js"></script>
+</body>
+</html>
